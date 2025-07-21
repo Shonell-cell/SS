@@ -221,7 +221,7 @@ h2 {
 
    body{
     text-align: center;
-    overflow-x: scroll;
+    overflow-x: hidden;
    }
       table, th, td {
         font-size: 12px;
