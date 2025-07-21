@@ -21,7 +21,7 @@ body{
   object-fit: cover;
   z-index: -1;
   pointer-events: none;
-  opacity:0.5;
+  opacity:0.6;
   transition: opacity 0.5s ease;
 }
 
@@ -216,11 +216,6 @@ h2 {
  
   
 } 
-body.scrolled{
-  background-color: #000000;
-  color: white;
-  transition: background-color 0.3s, color 0.3s;
-}
 
 
 
