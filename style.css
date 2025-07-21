@@ -223,8 +223,17 @@ h2 {
         font-size: 12px;
       }
 
-#hh,#qq{
-  scale: 0.6;
+#hh{
+  scale: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero{
+  height:50vh;
+}
+#qq{
+   scale: 0.8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -239,7 +248,7 @@ h2 {
  
 }
 #input{
- font-size: 8px;
+ font-size: 10px;
 }
 #arrow{
   margin: 50px;
