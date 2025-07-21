@@ -107,6 +107,6 @@ document.getElementById('btn2').addEventListener('click',function(){
       if (window.scrollY > 300) { 
         document.getElementById('bg-video').style.opacity = '0';
       } else {
-       document.getElementById('bg-video').style.opacity = '0.5';
+       document.getElementById('bg-video').style.opacity = '1';
       }
     });
