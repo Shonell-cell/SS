@@ -103,4 +103,10 @@ document.getElementById('btn2').addEventListener('click',function(){
     th.style.backgroundColor = color;
   });
 })
- 
+ window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) { 
+        document.getElementById('bg-video').style.opacity = '0';
+      } else {
+       document.getElementById('bg-video').style.opacity = '0.5';
+      }
+    });
