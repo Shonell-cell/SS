@@ -44,7 +44,7 @@ animation: typing 3s steps(25) forwards, blink 0.7s infinite step-end;
 @keyframes typing {
 
       from { width: 0 }
-      to { width: 25ch } /* Match character length of text */
+      to { width: 27ch } /* Match character length of text */
     }
 
     @keyframes blink {
@@ -214,14 +214,19 @@ h2 {
   
 } 
 
+
+
+
     @media (max-width: 768px) {
 
    body{
     text-align: center;
+    overflow-x: scroll;
    }
       table, th, td {
         font-size: 12px;
       }
+
 
 #hh{
   scale: 0.4;
