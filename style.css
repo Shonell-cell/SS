@@ -1,6 +1,6 @@
 @font-face{
     font-family: mojang;
-    src: url(fonts/Mojang-Regular.ttf)
+      src: url(fonts/Minecraftia-Regular.ttf);
 }
 body{
     font-family: mojang;
